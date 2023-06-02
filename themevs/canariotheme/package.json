@@ -1,0 +1,32 @@
+{
+  "name": "canariotheme",
+  "displayName": "CanarioTheme",
+  "description": "Dark Theme SirCanario",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Extensio Canario Host",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Extensio Canario Host-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/logo.png",
+  "author":{
+    "name": "SirCanario",
+    "email": "sircanario22@gmail.com",
+    "url": "https://canario-hosting.com/"
+  },
+  "repository":{
+    "url": "https://github.com/SirCanario/vscode-theme.git",
+    "type": "git"
+  },
+  "publisher": "codigo-tecsup"
+}
